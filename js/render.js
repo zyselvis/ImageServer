@@ -6,7 +6,8 @@ class ImageUpload extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    // TODO: do something with -> this.state.file
+	// upload the image to server directory ./image/IP_date_hour based on user IP&time 
+    // call python prcessing script to process image and save to ./image/IP_date_hour_processed-> this.state.file
     console.log('handle uploading-', this.state.file);
   }
 
